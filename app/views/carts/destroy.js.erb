@@ -1,0 +1,2 @@
+if ($('#cart').length == 1) { $('#cart').hide("blind", {direction: "vertical" }, 1000); }
+$('#cart tr').not('.total_line').remove();
